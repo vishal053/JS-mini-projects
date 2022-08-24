@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+#header{
+    text-align: center;
+}
+#logo{
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+#menu-bar{
+    text-align: center;
+    background-color: cadetblue;
+}
+#menu-bar li{
+    display: inline-block;
+    padding: 15px 10px;
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#container{
+    text-align: center;
+    padding: 50px 100px;
+}
+.img{
+    width: 100%;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
